@@ -1,0 +1,7 @@
+
+
+
+# Our core functionality has no external dependencies beyond the Python standard library.
+
+# Though for testing
+pytest
