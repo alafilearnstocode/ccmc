@@ -83,7 +83,7 @@ python3 -m ccmc.cli get mykey
 
 Here’s a live demo screenshot showing CCMC in action:
 
-![Demo Screenshot](ccmc/docs/image.png)
+![Demo Screenshot](/docs/image.png)
 
 ## Project Structure
 ```
