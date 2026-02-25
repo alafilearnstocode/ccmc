@@ -63,11 +63,13 @@ python3 -m ccmc.cli replace mykey world
 
 python3 -m ccmc.cli append mykey !!!
 # -> STORED
+
 python3 -m ccmc.cli get mykey
 # -> world!!!
 
 python3 -m ccmc.cli prepend mykey Say:
 # -> STORED
+
 python3 -m ccmc.cli get mykey
 # -> Say:world!!!
 
