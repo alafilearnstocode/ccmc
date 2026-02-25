@@ -49,29 +49,23 @@ python3 -m ccmc.cli [-H HOST] [-p PORT] <command> <key> [<value>]
 - `-p`, `--port`: Memcached server port (default: `11211`)
 
 ```bash
-# Set a value
 python3 -m ccmc.cli set mykey hello
 # -> STORED
 
-# Get the value
 python3 -m ccmc.cli get mykey
 # -> hello
 
-# Add (only if key does not exist)
 python3 -m ccmc.cli add mykey hello
 # -> NOT_STORED
 
-# Replace (only if key exists)
 python3 -m ccmc.cli replace mykey world
 # -> STORED
 
-# Append
 python3 -m ccmc.cli append mykey !!!
 # -> STORED
 python3 -m ccmc.cli get mykey
 # -> world!!!
 
-# Prepend
 python3 -m ccmc.cli prepend mykey Say:
 # -> STORED
 python3 -m ccmc.cli get mykey
