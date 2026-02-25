@@ -1,6 +1,6 @@
 
 
-# CCMC - Command Line Memcached Client
+# CCMC: Command Line Memcached Client
 
 This is a simple command line client for [Memcached](https://memcached.org/) written in Python.  
 And it lets you interact with a Memcached server directly from your terminal, similar to how `redis-cli` works for Redis.
