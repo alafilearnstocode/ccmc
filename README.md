@@ -3,14 +3,14 @@
 # CCMC: Command Line Memcached Client
 
 This is a simple command line client for [Memcached](https://memcached.org/) written in Python.  
-And it lets you interact with a Memcached server directly from your terminal, similar to how `redis-cli` works for Redis.
+And it lets you interact with a Memcached server directly from your terminal.
 
 ## Features
-- ✅ Connect to a Memcached server
-- ✅ Set and get key-value pairs
-- ✅ Support for `add`, `replace`, `append`, and `prepend`
-- ✅ Simple CLI with arguments for host/port
-- ✅ Built to be extended (e.g., delete, increment/decrement, CAS)
+-  Connect to a Memcached server
+-  Set and get key-value pairs
+-  Support for `add`, `replace`, `append`, and `prepend`
+-  Simple CLI with arguments for host/port
+-  Built to be extended (e.g., delete, increment/decrement, CAS)
 
 ## Requirements
 - Python 3.10+
@@ -77,7 +77,7 @@ python3 -m ccmc.cli get mykey
 
 ## Demo
 
-Here’s a live demo screenshot showing CCMC in action:
+Here’s a demo screenshot I took showing CCMC in action:
 
 ![Demo Screenshot](/docs/image.png)
 
@@ -91,8 +91,8 @@ ccmc/
 ```
 
 ## Roadmap
-- [ ] Add support for `delete`
-- [ ] Add support for `incr` / `decr`
-- [ ] Add support for `cas`
-- [ ] Add test suite
+-  Add support for `delete`
+-  Add support for `incr` / `decr`
+-  Add support for `cas`
+-  Add test suite
 
